@@ -11,13 +11,13 @@ let count = 0
 console.log(saveel)
 function increment(){
     count+=1
-    countel.innerText=count
+    countel.textContent=count
 
 }
 
 function save(){
    let  both = count + " - " 
-    saveel.innerText += both
+    saveel.textContent+= both
     console.log(count)
 }
 
@@ -25,4 +25,4 @@ let welcome =document.getElementById("welcome")
 let name = "anurag" 
 let greeting ="hello my name is "
 
-welcome.innerText=greeting+name
+welcome.textContent=greeting+name
