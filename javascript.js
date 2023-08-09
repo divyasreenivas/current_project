@@ -19,6 +19,8 @@ function save(){
    let  both = count + " - " 
     saveel.textContent+= both
     console.log(count)
+    countel.textContent=0
+    count =0
 }
 
 let welcome =document.getElementById("welcome")
